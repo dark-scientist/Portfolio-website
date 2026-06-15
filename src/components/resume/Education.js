@@ -10,12 +10,47 @@ const Education = () => {
       {/* Experience Section */}
       <div className="col-span-9 md:col-span-4">
         <ResumeTitle title="Experience" icon={<MdWork />} />
+
         <ResumeCard
-          badge="May 2024 – July 2024"
+          badge="Feb 2026 – Present"
+          title="AI Software Developer → Full-Time"
+          subTitle="DOTRYDER · Hybrid – Pune, Bangalore"
+          des="• Built a speech-to-speech RAG chatbot (English & Hindi) presented at the Bharat Electric Summit.
+• Completed an on-site PPE detection & safety alert POC for NTPC Lara using Vision AI, deployed on client server, and presented to stakeholders."
+        />
+
+        <ResumeCard
+          badge="Jan 2026 – Jun 2026"
+          title="AI Software Developer Intern – Paid"
+          subTitle="MOBIUS – XTRACT.IO · Chennai, India"
+          des="• Built a Telegram financial report bot on EC2 using OpenAI to parse XLS/PDF files.
+• Developed a self-training time card extraction pipeline inspired by Karpathy-style iterative prompting.
+• Created a graph RAG system in Neo4j for PDF Q&A and lease documents; built a Tata Motors news POC.
+• Implemented maritime bounding-box detection for sea safety use cases."
+        />
+
+        <ResumeCard
+          badge="May 2025 – Aug 2025"
+          title="Software Engineer Intern (AI & Cloud Automation) – Paid"
+          subTitle="Neeve.ai (IoTium) · Chennai, India"
+          des="• Automated backend & deployment processes on the Secure Edge platform using Python and REST APIs.
+• Built the MCP (Model Context Protocol) automation framework using Playwright & sequential thinking, streamlining 10+ recurring support issues weekly and integrating with VS Code Copilot for fix suggestions."
+        />
+
+        <ResumeCard
+          badge="Jan 2025 – Mar 2025"
+          title="Project Intern (Mentored)"
+          subTitle="WORLDLINE – Financial Services · Remote, Chennai"
+          des="• Built a real-time Credit Card Fraud Detection system using XGBoost, SMOTE, and RandomizedSearchCV.
+• Deployed a live transaction simulation pipeline with Flask and MQTT; built an interactive Streamlit monitoring dashboard."
+        />
+
+        <ResumeCard
+          badge="May 2024 – Jul 2024"
           title="Network Engineer Intern"
-          subTitle="GREENWARE TECHNOLOGIES - Data Scouts & Guards (Remote – UAE, Trichy)"
-          des="• Gained hands-on experience in AD & server management, PAM solutions, project management, customer handling, networking (Windows Server 19 and firewall), CyberArk, and RedHat. 
-          • Managed and executed onsite projects, collaborated with diverse teams, and improved problem-solving skills."
+          subTitle="GREENWARE TECHNOLOGIES · Remote – UAE, Trichy"
+          des="• Gained hands-on experience in AD & Server Management, PAM solutions, CyberArk, RedHat, Windows Server 19, and firewall configuration.
+• Managed onsite projects and collaborated with cross-functional teams across geographies."
         />
       </div>
 
@@ -27,20 +62,26 @@ const Education = () => {
       {/* Education Section */}
       <div className="col-span-9 md:col-span-4">
         <ResumeTitle title="Education" icon={<GiGraduateCap />} />
-        <ResumeCard
-  badge="2022 - Present"
-  title="B.Tech in Computer Science Engineering (IoT)"
-  subTitle="Shiv Nadar University, Chennai"
-  des=""
-  badgeStyle="bg-green-600 text-white" // Correctly passing the style prop
-/>
 
+        <ResumeCard
+          badge="2022 – 2026"
+          title="B.Tech – Computer Science Engineering (IoT)"
+          subTitle="Shiv Nadar University, Chennai"
+          des="CGPA: 7.4 / 10"
+        />
 
         <ResumeCard
           badge="2020 – 2021"
           title="Senior Secondary (12th Grade)"
           subTitle="DAV Public School, Chennai"
-          des=""
+          des="Percentage: 80%"
+        />
+
+        <ResumeCard
+          badge="2018 – 2019"
+          title="Secondary (10th Grade)"
+          subTitle="DAV Public School, Chennai"
+          des="Percentage: 92%"
         />
       </div>
     </div>

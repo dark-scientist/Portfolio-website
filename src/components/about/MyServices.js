@@ -1,49 +1,47 @@
 import React from "react";
-
 import ServicesCard from "./ServicesCard";
-
 import { BiBrain } from "react-icons/bi";
 import { IoCloudOutline } from "react-icons/io5";
-import { FaShieldAlt, FaCode } from "react-icons/fa";
+import { FaShieldAlt, FaCode, FaRobot } from "react-icons/fa";
 import { BsBarChartLine } from "react-icons/bs";
 import { AiOutlineApi } from "react-icons/ai";
+import { MdSecurity } from "react-icons/md";
 
 const MyServices = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
       <ServicesCard
+        icons={<FaRobot />}
+        title="LLM Engineering & RAG Systems"
+        subTitle="Building production-grade LLM pipelines — speech-to-speech bots, graph RAG with Neo4j, document intelligence workflows, and self-training prompt pipelines using OpenAI and Claude."
+      />
+      <ServicesCard
         icons={<BiBrain />}
-        title="AI/ML Solutions"
-        subTitle="Developing AI/ML models for NLP, time-series prediction, and computer vision using TensorFlow, PyTorch, Hugging Face, and LLMs like GPT/BERT."
+        title="AI / ML & Vision AI"
+        subTitle="Developing AI/ML models for NLP, time-series prediction, graph neural networks (DCRNN), and computer vision including PPE detection and maritime bounding-box detection."
       />
       <ServicesCard
         icons={<IoCloudOutline />}
-        title="Cloud & IoT Integration"
-        subTitle="Building scalable cloud and IoT solutions using Azure IoT Hub, Databricks, and DPS with real-time analytics."
-      />
-      <ServicesCard
-        icons={<FaShieldAlt />}
-        title="Network Security & DevOps"
-        subTitle="Implementing secure environments with Active Directory, Linux, and CI/CD pipelines. Experience with Docker, Git, and Postman APIs."
-      />
-      <ServicesCard
-        icons={<FaCode />}
-        title="Web & App Development"
-        subTitle="Designing responsive front-end interfaces using React.js, Node.js, and HTML/CSS, with seamless backend integration."
-      />
-      <ServicesCard
-        icons={<BsBarChartLine />}
-        title="Data Analytics & Visualization"
-        subTitle="Developing data pipelines and insightful visualizations with real-time dashboards using Power BI and Azure Stream Analytics."
+        title="Cloud & Edge Infrastructure"
+        subTitle="Designing scalable cloud architectures on AWS (EC2, VPC) and Azure (IoT Hub, Databricks, Stream Analytics). Experience with OT systems and edge AI deployment."
       />
       <ServicesCard
         icons={<AiOutlineApi />}
         title="Automation & API Development"
-        subTitle="Automating workflows and building REST APIs to streamline processes and improve efficiency."
+        subTitle="Building MCP automation frameworks using Playwright and sequential thinking. Developing REST APIs, Telegram bots, and workflow automators that cut recurring support overhead."
+      />
+      <ServicesCard
+        icons={<FaCode />}
+        title="Web & App Development"
+        subTitle="Designing responsive front-end interfaces using React.js, Node.js, and HTML/CSS — from event websites to real-time Streamlit dashboards with Plotly visualizations."
+      />
+      <ServicesCard
+        icons={<FaShieldAlt />}
+        title="Network Security & DevOps"
+        subTitle="Implementing secure environments with AD, CyberArk PAM, Linux, and CI/CD pipelines. Hands-on with Docker, Git, AWS VPCs, CIDR routing, and firewall configuration."
       />
     </div>
   );
 };
 
 export default MyServices;
-

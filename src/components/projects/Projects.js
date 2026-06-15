@@ -5,60 +5,70 @@ import {
   FaGlobe,
   FaCloud,
   FaBrain,
+  FaWater,
 } from "react-icons/fa";
+import { MdSatellite } from "react-icons/md";
 import Title from "../home/Title";
 import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
   return (
     <div>
-      {/* Section Title */}
       <Title title="Recent" subTitle="Projects" />
 
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 lgl:gap-10 px-6">
-        {/* Project 1 - Spotify Insights */}
+        {/* Project 1 - DCRNN Groundwater */}
+        <ProjectsCard
+          icon={<FaWater className="text-cyan-400 text-2xl" />}
+          title="DCRNN-Based Groundwater Quality Prediction"
+          category="Deep Learning · Graph Neural Networks · GIS"
+          date="2026"
+          description="Developed a graph-based DCRNN model to predict groundwater quality indicators for Perambalur District using Copernicus land-use TIFF data, hydro-geochemical indices, and multi-year well observations. Engineered features from raster/tabular sources — ionic ratios, seasonal encodings, elevation attributes — and generated well-wise forecasts for WQI, Na, PI, SAR, and MHR."
+        />
+
+        {/* Project 2 - Spotify Insights */}
         <ProjectsCard
           icon={<FaSpotify className="text-green-500 text-2xl" />}
           title="Spotify Business Insights with LLM"
-          category="AI/ML Project"
-          date="2025 - Ongoing"
-          description="Leveraging LLMs (GPT-4, BERT) and ML models (Facebook Prophet, LSTM) to analyze Spotify data for music trend predictions. Utilizing Spotipy, Pandas, VADER for sentiment analysis and Streamlit, Plotly for interactive visualizations."
+          category="AI/ML · NLP · Data Analytics"
+          date="2025"
+          description="Leveraged LLMs (GPT-4, BERT) and ML models (Facebook Prophet, LSTM) to analyze Spotify data for music trend predictions. Used Spotipy, Pandas, VADER for sentiment analysis, and Streamlit + Plotly for interactive visualizations."
         />
 
-        {/* Project 2 - Credit Card Fraud Detection */}
+        {/* Project 3 - Credit Card Fraud Detection */}
         <ProjectsCard
           icon={<FaCreditCard className="text-red-500 text-2xl" />}
-          title="Credit Card Fraud Detection"
-          category="Machine Learning, Finance & DevOps"
-          date="2025 - Ongoing"
-          description="Guided under the mentorship from Worldline (Financial services company) - creating own ML model to flag the fraud card and interrupt the transaction in the middle where the communication is done with MQTT protocol."
+          title="Credit Card Fraud Detection System"
+          category="Machine Learning · Finance · DevOps"
+          date="2025"
+          description="Developed under Worldline mentorship — a real-time fraud detection system using XGBoost, SMOTE for class imbalance, and RandomizedSearchCV for tuning. Integrated MQTT for live transaction streaming and Flask for simulation. Built an interactive Streamlit dashboard with Scikit-learn, Pandas, and Matplotlib."
         />
 
-        {/* Project 3 - Anniversary Website */}
+        {/* Project 4 - Anniversary Website */}
         <ProjectsCard
           icon={<FaGlobe className="text-blue-400 text-2xl" />}
           title="Anniversary Website"
-          category="Web Development"
+          category="Web Development · React.js · Node.js"
           date="2025"
-          description="Designed and developed a full-fledged front-end website for a 1st-year anniversary event using React.js for the UI and Node.js for the backend. The website featured interactive elements, event details, and a dynamic RSVP system."
+          description="Designed and developed a full-fledged front-end website for a 1st-year anniversary event using React.js for the UI and Node.js for the backend. Featured interactive elements, event details, and a dynamic RSVP system."
         />
 
-        {/* Project 4 - IoT Solution in Azure */}
+        {/* Project 5 - IoT Solution in Azure */}
         <ProjectsCard
           icon={<FaCloud className="text-blue-600 text-2xl" />}
-          title="End-to-End IoT Solution for High-Velocity Smart Meter Data Analysis in Azure"
-          category="IoT & Cloud"
+          title="End-to-End IoT Solution for Smart Meter Data Analysis"
+          category="IoT · Azure · Cloud Architecture"
           date="2024"
-          description="Developed a lambda architecture to process high-velocity smart meter data in real-time using Azure IoT Hub, DPS, and Stream Analytics. Implemented long-term data storage with Azure Storage and advanced analytics through Azure Databricks, enabling insights and visualization for data-driven decision-making."
+          description="Built a lambda architecture to process high-velocity smart meter data in real-time using Azure IoT Hub, DPS, and Stream Analytics. Implemented long-term storage with Azure Storage and advanced analytics through Azure Databricks for data-driven insights."
         />
 
-        {/* Project 5 - Computer Vision with Azure Cognitive */}
+        {/* Project 6 - Computer Vision Azure */}
         <ProjectsCard
           icon={<FaBrain className="text-purple-400 text-2xl" />}
-          title="Build a Computer Vision App with Azure Cognitive Services"
-          category="AI & Computer Vision"
+          title="Computer Vision App with Azure Cognitive Services"
+          category="AI · Computer Vision · Cloud"
           date="2024"
-          description="Created a computer vision application using Azure Cognitive Services to analyze images and extract meaningful insights. Utilized API variations to optimize performance and integrated the model into a scalable web application."
+          description="Created a computer vision application using Azure Cognitive Services to analyze images and extract meaningful insights. Optimized via API variations and integrated into a scalable web application."
         />
       </div>
     </div>

@@ -6,12 +6,12 @@ const AboutMe = () => {
       <div className="w-full md:w-1/2 text-zinc-400 px-6 border-r-[1px] border-r-zinc-800 flex items-center">
         <div className="py-6">
           <h2 className="font-semibold mb-1">Hello! I'm Prithwin</h2>
-          <p className="text-base leading-6 ">
-<<<<<<< HEAD
-          a CSE student passionate about IoT, AI/ML, and cloud solutions. Skilled in Python, and Azure, with hands-on experience in building scalable applications. I specialize in network security, DevOps, and NLP models, blending innovation with problem-solving to deliver impactful, real-world solutions."
-=======
-          A CSE student passionate about IoT, AI/ML, and cloud solutions. Skilled in Python, and Azure, with hands-on experience in building scalable applications. I specialize in network security, DevOps, and NLP models, blending innovation with problem-solving to deliver impactful, real-world solutions."
->>>>>>> a45019a (Initial commit for portfolio website)
+          <p className="text-base leading-6">
+            An LLM Engineer and AI Developer with hands-on experience building speech-to-speech RAG
+            chatbots, vision AI pipelines, graph RAG systems, and cloud automation tools. Proficient in
+            AWS, Azure, and Linux — with a strong background in DevOps, prompt engineering, and
+            network security. I turn complex AI research into real-world production systems that create
+            measurable impact.
           </p>
         </div>
       </div>
@@ -19,7 +19,7 @@ const AboutMe = () => {
         <ul className="flex flex-col gap-1">
           <li className="aboutRightLi">
             <span className="aboutRightLiSpan">Age:</span>
-            20
+            22
           </li>
           <li className="aboutRightLi">
             <span className="aboutRightLiSpan">Residence:</span>
@@ -31,7 +31,11 @@ const AboutMe = () => {
           </li>
           <li className="aboutRightLi">
             <span className="aboutRightLiSpan">Address:</span>
-            India, TamilNadu, Chennai
+            Tamil Nadu, Chennai, India
+          </li>
+          <li className="aboutRightLi">
+            <span className="aboutRightLiSpan">Email:</span>
+            rmprithwinraj@gmail.com
           </li>
         </ul>
       </div>

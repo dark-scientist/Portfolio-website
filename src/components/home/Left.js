@@ -4,7 +4,7 @@ import { BsCloudLightningFill } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FiInstagram, FiMail, FiSend } from "react-icons/fi";
 import { IoLogoWhatsapp } from "react-icons/io";
-import CV from "../../assets/prithwin_resume(updated).pdf";
+import CV from "../../assets/prithwin_finalresume_2026(updated).pdf";
 import { bannerImg } from "../../assets/index";
 
 const Left = () => {
