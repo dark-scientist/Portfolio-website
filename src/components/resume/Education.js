@@ -13,16 +13,16 @@ const Education = () => {
 
         <ResumeCard
           badge="Feb 2026 – Present"
-          title="AI Software Developer → Full-Time"
-          subTitle="DOTRYDER · Hybrid – Pune, Bangalore"
+          title="DOTRYDER"
+          subTitle="AI Software Developer → Full-Time · Hybrid – Pune, Bangalore"
           des="• Built a speech-to-speech RAG chatbot (English & Hindi) presented at the Bharat Electric Summit.
 • Completed an on-site PPE detection & safety alert POC for NTPC Lara using Vision AI, deployed on client server, and presented to stakeholders."
         />
 
         <ResumeCard
           badge="Jan 2026 – Jun 2026"
-          title="AI Software Developer Intern – Paid"
-          subTitle="MOBIUS – XTRACT.IO · Chennai, India"
+          title="MOBIUS – XTRACT.IO"
+          subTitle="AI Software Developer Intern – Paid · Chennai, India"
           des="• Built a Telegram financial report bot on EC2 using OpenAI to parse XLS/PDF files.
 • Developed a self-training time card extraction pipeline inspired by Karpathy-style iterative prompting.
 • Created a graph RAG system in Neo4j for PDF Q&A and lease documents; built a Tata Motors news POC.
@@ -31,24 +31,24 @@ const Education = () => {
 
         <ResumeCard
           badge="May 2025 – Aug 2025"
-          title="Software Engineer Intern (AI & Cloud Automation) – Paid"
-          subTitle="Neeve.ai (IoTium) · Chennai, India"
+          title="Neeve.ai (IoTium)"
+          subTitle="Software Engineer Intern (AI & Cloud Automation) – Paid · Chennai, India"
           des="• Automated backend & deployment processes on the Secure Edge platform using Python and REST APIs.
 • Built the MCP (Model Context Protocol) automation framework using Playwright & sequential thinking, streamlining 10+ recurring support issues weekly and integrating with VS Code Copilot for fix suggestions."
         />
 
         <ResumeCard
           badge="Jan 2025 – Mar 2025"
-          title="Project Intern (Mentored)"
-          subTitle="WORLDLINE – Financial Services · Remote, Chennai"
+          title="WORLDLINE – Financial Services"
+          subTitle="Project Intern (Mentored) · Remote, Chennai"
           des="• Built a real-time Credit Card Fraud Detection system using XGBoost, SMOTE, and RandomizedSearchCV.
 • Deployed a live transaction simulation pipeline with Flask and MQTT; built an interactive Streamlit monitoring dashboard."
         />
 
         <ResumeCard
           badge="May 2024 – Jul 2024"
-          title="Network Engineer Intern"
-          subTitle="GREENWARE TECHNOLOGIES · Remote – UAE, Trichy"
+          title="GREENWARE TECHNOLOGIES"
+          subTitle="Network Engineer Intern · Remote – UAE, Trichy"
           des="• Gained hands-on experience in AD & Server Management, PAM solutions, CyberArk, RedHat, Windows Server 19, and firewall configuration.
 • Managed onsite projects and collaborated with cross-functional teams across geographies."
         />

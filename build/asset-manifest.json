@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6d72ec27.css",
-    "main.js": "/static/js/main.86f03861.js",
+    "main.js": "/static/js/main.27448a80.js",
     "static/media/workImgEight.jpg": "/static/media/workImgEight.863efcb32ba563410bd6.jpg",
     "static/media/prithwin_finalresume_2026(updated).pdf": "/static/media/prithwin_finalresume_2026(updated).058fe30563ea516ca33f.pdf",
     "static/media/workImgSeven.jpg": "/static/media/workImgSeven.b607849747fc53f9a1c1.jpg",
@@ -17,10 +17,10 @@
     "static/media/workImgOne.jpg": "/static/media/workImgOne.294921da5954189699c7.jpg",
     "index.html": "/index.html",
     "main.6d72ec27.css.map": "/static/css/main.6d72ec27.css.map",
-    "main.86f03861.js.map": "/static/js/main.86f03861.js.map"
+    "main.27448a80.js.map": "/static/js/main.27448a80.js.map"
   },
   "entrypoints": [
     "static/css/main.6d72ec27.css",
-    "static/js/main.86f03861.js"
+    "static/js/main.27448a80.js"
   ]
 }

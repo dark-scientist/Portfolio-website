@@ -7,11 +7,11 @@ const AboutMe = () => {
         <div className="py-6">
           <h2 className="font-semibold mb-1">Hello! I'm Prithwin</h2>
           <p className="text-base leading-6">
-            An LLM Engineer and AI Developer with hands-on experience building speech-to-speech RAG
-            chatbots, vision AI pipelines, graph RAG systems, and cloud automation tools. Proficient in
-            AWS, Azure, and Linux — with a strong background in DevOps, prompt engineering, and
-            network security. I turn complex AI research into real-world production systems that create
-            measurable impact.
+            Motivated tech enthusiast with experience in AI, LLMs (OpenAI, Claude), cloud computing,
+            network security, and IoT. Proficient in AWS, Azure and Linux, with foundations in prompt
+            engineering, cloud infrastructure, and DevOps. Known for rapid learning and emerging
+            leadership, with a track record of delivering industry-focused solutions using modern AI and
+            cloud tools, I aim to build intelligent systems that create impactful, real-world outcomes.
           </p>
         </div>
       </div>
