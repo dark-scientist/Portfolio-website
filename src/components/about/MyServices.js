@@ -3,9 +3,7 @@ import ServicesCard from "./ServicesCard";
 import { BiBrain } from "react-icons/bi";
 import { IoCloudOutline } from "react-icons/io5";
 import { FaShieldAlt, FaCode, FaRobot } from "react-icons/fa";
-import { BsBarChartLine } from "react-icons/bs";
 import { AiOutlineApi } from "react-icons/ai";
-import { MdSecurity } from "react-icons/md";
 
 const MyServices = () => {
   return (

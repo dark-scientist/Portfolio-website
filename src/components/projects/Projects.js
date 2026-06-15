@@ -7,7 +7,6 @@ import {
   FaBrain,
   FaWater,
 } from "react-icons/fa";
-import { MdSatellite } from "react-icons/md";
 import Title from "../home/Title";
 import ProjectsCard from "./ProjectsCard";
 
